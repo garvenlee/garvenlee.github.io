@@ -5,4 +5,9 @@
     <url>%2F2019%2F08%2F03%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
+  <entry>
+    <title><![CDATA[Hexo On Github]]></title>
+    <url>%2F2019%2F08%2F03%2Fhexo%2F</url>
+    <content type="text"><![CDATA[Combine Hexo with github.io to put blogs on web. Use HexoBasic Requirement NodeJS npm cnpm 1$ sudo npm install -g cnpm --registry=https://registry.npm.taobao.org Use Method12$ cnpm install -g hexo-cli$ cd blog &amp;&amp; sudo hexo init How to put the blog on githubset the git environment1$ cnpm install --save hexo-deployer-git type: gitrepo: yougithubname.github.iobranch: master set theme1$ vi ./blog/_config_yml Theme Choices: NexT / yilia]]></content>
+  </entry>
 </search>
